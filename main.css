@@ -1,0 +1,43 @@
+.container {
+    width: 25%;
+    margin: 50px auto;
+    height: 70vh;
+    border: 2px solid rgb(31, 32, 31);
+    padding: 20px;
+    border-radius: 7%;
+}
+
+input {
+    border: 2px solid black;
+    margin-top: 1rem;
+    width: 100%;
+    max-width: 310px;
+    height: 50px;
+    justify-content: center;
+}
+
+/* .result {
+    margin-bottom: 20px;
+    border: 2px solid black;
+} */
+
+.keybord {
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    margin-top: 1rem;
+}
+
+.keybord button {
+    font-weight: 800;
+    background-color: rgb(112, 111, 111);
+    color: white;
+    border: 1px solid white;
+}
+
+.keybord button:hover {
+    cursor: pointer;
+    background-color: rgb(243, 237, 237);
+    color: rgb(61, 57, 57);
+}
